@@ -1,0 +1,21 @@
+
+{
+    "name": "belive/core",
+    "minimum-stability": "dev",
+    "type": "libray",
+    "authors": [
+        {
+            "name": "Oskar Nizioł",
+            "email": "oskarniziol@gmail.com"
+        }
+    ],
+    "license": "MIT",
+    "require": {
+        "vlucas/phpdotenv": "^5.4.1"
+    },
+    "autoload": {
+        "psr-4": {
+          "Belive\\Core\\": "src/"
+         }
+    }
+}
